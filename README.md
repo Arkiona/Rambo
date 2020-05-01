@@ -18,7 +18,7 @@ simple example:
  
 ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password -c customparam1 -t custominput1 -o customparam2 -m customvalue2 -f  No account found with that username.
  
-see ruby -h for more
+see rambo.rb -h for more
 
 Install the following gems: (gem install name) from your terminal
 'Typhoeus'
