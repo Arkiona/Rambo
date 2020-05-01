@@ -1,4 +1,5 @@
 # Rambo
+<pre>
 Rambo HTTP CLI Brute-forcer
 
 
@@ -10,23 +11,15 @@ Simple Ruby based HTTP brute-forcer supporting custom name and password paramete
 -w wordlist. Wordlist file needs to be : seperated (username:password)
 -f sets the failed login message. i.e Invalid username or password
 
-see -h for more:
+simple example:
+ ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password  -f   No account found with that username
+ 
+ Complex example:
+ 
+ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password -c customparam1 -t custominput1 -o customparam2 -m customvalue2 -f  No account found with that username.
+ 
+ 
 
-<pre>
- ruby rambo.rb -h
-Options:
-  -s, --simpleexample=<s>        ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password  -f  No account found with that username. 
-  -a, --advexample=<s>           ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password -c customparam1 -t custominput1 -o customparam2 -m customvalue2 -f  No account found with that username.
-  -w, --wordlist=<s>             Wordlist Filename - username:password format
-  -d, --domain=<s>               domain and path to login - http(s)://127.0.0.1/login.php
-  -u, --userparameter=<s>        Username parameter - parameter name that sends the username
-  -p, --passwordparameter=<s>    Password parameter - parameter name that sends the password
-  -c, --customparamname1=<s>     Custom Parameter Name one
-  -t, --customparamvalue1=<s>    Custom Parameter value one
-  -o, --customparamname2=<s>     Custom Parameter Name Two
-  -m, --customparamvalue2=<s>    Custom Parameter value Two
-  -f, --failedlogin=<s>          Enter failed login string - i.e invalid username and password
-  -h, --help                     Show this message
-  
-  
-  </pre>
+see ruby -h for more
+
+</pre>
