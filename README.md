@@ -20,7 +20,7 @@ ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p 
  
 see ruby -h for more
 
-Install the following gems: (gem install <name>) from your terminal
+Install the following gems: (gem install name) from your terminal
 'Typhoeus'
 'hydra'
 'optimist'
