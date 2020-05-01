@@ -12,7 +12,7 @@ Simple Ruby based HTTP brute-forcer supporting custom name and password paramete
 
 see -h for more:
 
-<p>
+<pre>
  ruby rambo.rb -h
 Options:
   -s, --simpleexample=<s>        ruby rambo.rb -w test.txt -d http://172.16.139.221/app2/index.php  -u username -p password  -f  No account found with that username. 
@@ -29,4 +29,4 @@ Options:
   -h, --help                     Show this message
   
   
-  </p>
+  </pre>
