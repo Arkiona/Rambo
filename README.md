@@ -25,7 +25,7 @@ Install the following gems: (gem install name) from your terminal
 'hydra'
 'optimist'
 'colorize'
-</pre>
+
 
 
 Enable proxy:
@@ -36,3 +36,4 @@ Typhoeus::Request.new(domain, followlocation: true,
 To
 
 Typhoeus::Request.new(domain,:proxy => "http://127.0.0.1:8080", followlocation: true,                            
+</pre>
