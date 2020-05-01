@@ -15,10 +15,10 @@ see -h for more:
 <pre>
  ruby rambo.rb -h
 Options:
-  -s, --simpleexample=<s>        ruby rambo.rb -w test.txt -d http://172.16.139.221/app2/index.php  -u username -p password  -f  No account found with that username. 
-  -a, --advexample=<s>           ruby rambo.rb -w test.txt -d http://172.16.139.221/app2/index.php  -u username -p password -c customparam1 -t custominput1 -o customparam2 -m customvalue2 -f  No account found with that username.
+  -s, --simpleexample=<s>        ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password  -f  No account found with that username. 
+  -a, --advexample=<s>           ruby rambo.rb -w test.txt -d http(s)://127.0.0.1/app2/index.php  -u username -p password -c customparam1 -t custominput1 -o customparam2 -m customvalue2 -f  No account found with that username.
   -w, --wordlist=<s>             Wordlist Filename - username:password format
-  -d, --domain=<s>               domain and path to login - https://127.0.0.1/login.php
+  -d, --domain=<s>               domain and path to login - http(s)://127.0.0.1/login.php
   -u, --userparameter=<s>        Username parameter - parameter name that sends the username
   -p, --passwordparameter=<s>    Password parameter - parameter name that sends the password
   -c, --customparamname1=<s>     Custom Parameter Name one
