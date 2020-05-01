@@ -37,3 +37,9 @@ To
 
 Typhoeus::Request.new(domain,:proxy => "http://127.0.0.1:8080", followlocation: true,                            
 </pre>
+
+
+<pre>
+Advisory
+All the scripts listed in this repository should only be used for authorized penetration testing and/or educational purposes. Any misuse of this software will not be the responsibility of the author or of any other collaborator. Use it on your own networks and/or systems with the network owner's permission. Furthermore, please use at your own risk as the author or any other collaborator are not responsible for any issues or trouble caused!
+</pre>
