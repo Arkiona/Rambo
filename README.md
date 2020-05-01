@@ -3,7 +3,7 @@
 Rambo HTTP CLI Brute-forcer
 
 
-Simple Ruby based HTTP brute-forcer supporting custom name and password parameters and up to two custom fields. Doesn't support GET as there as logins rarely use GET.
+Simple Ruby based HTTP brute-forcer supporting custom name and password parameter. Also allows up to two custom fields. Doesn't support GET as there as logins rarely use GET.
 
 -u allows you to set the custom username parameter. You can find this by capturing the login request in burp or similar tool
 -p allows you to set the custom password parameter. You can find this by capturing the login request in burp or similar tool
