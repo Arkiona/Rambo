@@ -26,3 +26,13 @@ Install the following gems: (gem install name) from your terminal
 'optimist'
 'colorize'
 </pre>
+
+
+Enable proxy:
+change the following line:
+
+Typhoeus::Request.new(domain, followlocation: true, 
+
+To
+
+Typhoeus::Request.new(domain,:proxy => "http://127.0.0.1:8080", followlocation: true,                            
